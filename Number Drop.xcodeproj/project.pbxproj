@@ -9,19 +9,19 @@
 /* Begin PBXBuildFile section */
 		E69221BC1EA6862200D4AF01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69221BB1EA6862200D4AF01 /* AppDelegate.swift */; };
 		E69221BE1EA6862200D4AF01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69221BD1EA6862200D4AF01 /* ViewController.swift */; };
-		E69221C11EA6862200D4AF01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E69221BF1EA6862200D4AF01 /* Main.storyboard */; };
 		E69221C31EA6862200D4AF01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E69221C21EA6862200D4AF01 /* Assets.xcassets */; };
 		E69221C61EA6862200D4AF01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E69221C41EA6862200D4AF01 /* LaunchScreen.storyboard */; };
+		E69221CE1EA68B9B00D4AF01 /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69221CD1EA68B9B00D4AF01 /* CustomViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E69221B81EA6862200D4AF01 /* Number Drop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Number Drop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E69221BB1EA6862200D4AF01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E69221BD1EA6862200D4AF01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E69221C01EA6862200D4AF01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E69221C21EA6862200D4AF01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E69221C51EA6862200D4AF01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E69221C71EA6862200D4AF01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E69221CD1EA68B9B00D4AF01 /* CustomViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +56,10 @@
 			children = (
 				E69221BB1EA6862200D4AF01 /* AppDelegate.swift */,
 				E69221BD1EA6862200D4AF01 /* ViewController.swift */,
-				E69221BF1EA6862200D4AF01 /* Main.storyboard */,
 				E69221C21EA6862200D4AF01 /* Assets.xcassets */,
 				E69221C41EA6862200D4AF01 /* LaunchScreen.storyboard */,
 				E69221C71EA6862200D4AF01 /* Info.plist */,
+				E69221CD1EA68B9B00D4AF01 /* CustomViews.swift */,
 			);
 			path = "Number Drop";
 			sourceTree = "<group>";
@@ -125,7 +125,6 @@
 			files = (
 				E69221C61EA6862200D4AF01 /* LaunchScreen.storyboard in Resources */,
 				E69221C31EA6862200D4AF01 /* Assets.xcassets in Resources */,
-				E69221C11EA6862200D4AF01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E69221CE1EA68B9B00D4AF01 /* CustomViews.swift in Sources */,
 				E69221BE1EA6862200D4AF01 /* ViewController.swift in Sources */,
 				E69221BC1EA6862200D4AF01 /* AppDelegate.swift in Sources */,
 			);
@@ -144,14 +144,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E69221BF1EA6862200D4AF01 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E69221C01EA6862200D4AF01 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E69221C41EA6862200D4AF01 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
